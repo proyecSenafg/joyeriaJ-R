@@ -23,6 +23,6 @@ ferretería.
 ```
 Perfiles:
 Administrador:-> usuario: admin - contraseña: admin
-Vendedor:-> usuario: luis - contraseña: luis123
-Especial:-> usuario: julio - contraseña: julio123
+Vendedor:-> usuario: Rocio - contraseña: Rocio123
+
 ```
