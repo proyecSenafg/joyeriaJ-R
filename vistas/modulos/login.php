@@ -1,10 +1,10 @@
-<div id="back"></div>
+<div id=""></div>
 
 <div class="login-box">
   
   <div class="login-logo">
 
-    <img src="vistas/img/plantilla/logo-blanco-bloque.png" class="img-responsive" style="padding:30px 100px 0px 100px">
+    <img src="vistas/img/plantilla/logo_joyeria.png" class="img-responsive" style="padding:10px 100px 0px 100px">
 
   </div>
 
@@ -32,8 +32,8 @@
        
         <div class="col-xs-4">
 
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
-        
+          <button type="submit" class="btn btn-dark-light btn-block btn-flat">Ingresar</button>
+    
         </div>
 
       </div>

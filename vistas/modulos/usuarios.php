@@ -15,7 +15,7 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 ?>
 <div class="content-wrapper">
 
-  <section class="content-header">
+  <section class="content-header" style="color:orange">
     
     <h1>
       
@@ -25,9 +25,9 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 
     <ol class="breadcrumb">
       
-      <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
+      <li><a href="inicio" style="color:orange"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
-      <li class="active">Administrar usuarios</li>
+      <li class="active" style="color:orange">Administrar usuarios</li>
     
     </ol>
 
@@ -37,9 +37,9 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 
     <div class="box">
 
-      <div class="box-header with-border">
+      <div class="box-header with-border" style="color:black">
   
-        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarUsuario">
+        <button class="btn btn-dark-ligth"  data-toggle="modal" data-target="#modalAgregarUsuario">
           
           Agregar usuario
 
@@ -58,7 +58,7 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
            <th style="width:10px">#</th>
            <th>Nombre</th>
            <th>Usuario</th>
-           <th>Foto</th>
+           <!-- <th>Foto</th> -->
            <th>Perfil</th>
            <th>Estado</th>
            <th>Último login</th>
@@ -84,15 +84,15 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
                   <td>'.$value["nombre"].'</td>
                   <td>'.$value["usuario"].'</td>';
 
-                  if($value["foto"] != ""){
+                  // if($value["foto"] != ""){
 
-                    echo '<td><img src="'.$value["foto"].'" class="img-thumbnail" width="40px"></td>';
+                  //   echo '<td><img src="'.$value["foto"].'" class="img-thumbnail" width="40px"></td>';
 
-                  }else{
+                  // }else{
 
-                    echo '<td><img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>';
+                  //   echo '<td><img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>';
 
-                  }
+                  // }
 
                   echo '<td>'.$value["perfil"].'</td>';
 
@@ -153,7 +153,7 @@ MODAL AGREGAR USUARIO
         CABEZA DEL MODAL
         ======================================-->
 
-        <div class="modal-header" style="background:#3c8dbc; color:white">
+        <div class="modal-header" style="background:black; color:white">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
@@ -237,7 +237,7 @@ MODAL AGREGAR USUARIO
 
             <!-- ENTRADA PARA SUBIR FOTO -->
 
-             <div class="form-group">
+             <!-- <div class="form-group">
               
               <div class="panel">SUBIR FOTO</div>
 
@@ -247,7 +247,7 @@ MODAL AGREGAR USUARIO
 
               <img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail previsualizar" width="100px">
 
-            </div>
+            </div> -->
 
           </div>
 
@@ -261,7 +261,7 @@ MODAL AGREGAR USUARIO
 
           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
 
-          <button type="submit" class="btn btn-primary">Guardar usuario</button>
+          <button type="submit" class="btn btn-dark-ligth">Guardar usuario</button>
 
         </div>
 
@@ -296,7 +296,7 @@ MODAL EDITAR USUARIO
         CABEZA DEL MODAL
         ======================================-->
 
-        <div class="modal-header" style="background:#3c8dbc; color:white">
+        <div class="modal-header" style="background:black; color:white">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
@@ -382,7 +382,7 @@ MODAL EDITAR USUARIO
 
             <!-- ENTRADA PARA SUBIR FOTO -->
 
-             <div class="form-group">
+             <!-- <div class="form-group">
               
               <div class="panel">SUBIR FOTO</div>
 
@@ -394,7 +394,7 @@ MODAL EDITAR USUARIO
 
               <input type="hidden" name="fotoActual" id="fotoActual">
 
-            </div>
+            </div> -->
 
           </div>
 
@@ -408,7 +408,7 @@ MODAL EDITAR USUARIO
 
           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
 
-          <button type="submit" class="btn btn-primary">Modificar usuario</button>
+          <button type="submit" class="btn btn-dark-ligth">Modificar usuario</button>
 
         </div>
 

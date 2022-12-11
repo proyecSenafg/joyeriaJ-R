@@ -16,7 +16,7 @@ if($_SESSION["perfil"] == "Vendedor"){
 
 <div class="content-wrapper">
 
-  <section class="content-header">
+  <section class="content-header" style="color:orange">
     
     <h1>
       
@@ -26,9 +26,9 @@ if($_SESSION["perfil"] == "Vendedor"){
 
     <ol class="breadcrumb">
       
-      <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
+      <li><a href="inicio" style="color:orange"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
-      <li class="active">Administrar categorías</li>
+      <li class="active" style="color:orange">Administrar categorías</li>
     
     </ol>
 
@@ -40,7 +40,7 @@ if($_SESSION["perfil"] == "Vendedor"){
 
       <div class="box-header with-border">
   
-        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarCategoria">
+        <button class="btn btn-dark-ligth" data-toggle="modal" data-target="#modalAgregarCategoria">
           
           Agregar categoría
 
@@ -130,7 +130,7 @@ MODAL AGREGAR CATEGORÍA
         CABEZA DEL MODAL
         ======================================-->
 
-        <div class="modal-header" style="background:#3c8dbc; color:white">
+        <div class="modal-header" style="background:black; color:white">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
@@ -172,7 +172,7 @@ MODAL AGREGAR CATEGORÍA
 
           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
 
-          <button type="submit" class="btn btn-primary">Guardar categoría</button>
+          <button type="submit" class="btn btn-dark-light">Guardar categoría</button>
 
         </div>
 
@@ -207,7 +207,7 @@ MODAL EDITAR CATEGORÍA
         CABEZA DEL MODAL
         ======================================-->
 
-        <div class="modal-header" style="background:#3c8dbc; color:white">
+        <div class="modal-header" style="background:black; color:white">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
@@ -251,7 +251,7 @@ MODAL EDITAR CATEGORÍA
 
           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
 
-          <button type="submit" class="btn btn-primary">Guardar cambios</button>
+          <button type="submit" class="btn btn-dark-ligth">Guardar cambios</button>
 
         </div>
 

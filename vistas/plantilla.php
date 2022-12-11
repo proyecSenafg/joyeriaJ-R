@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+session_start(); 
 
 ?>
 
@@ -12,7 +12,7 @@ session_start();
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Inventory System</title>
+  <title>Joyeria J&R</title>
 
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -142,11 +142,11 @@ CUERPO DOCUMENTO
         $_GET["ruta"] == "usuarios" ||
         $_GET["ruta"] == "categorias" ||
         $_GET["ruta"] == "productos" ||
-        $_GET["ruta"] == "clientes" ||
-        $_GET["ruta"] == "ventas" ||
-        $_GET["ruta"] == "crear-venta" ||
-        $_GET["ruta"] == "editar-venta" ||
-        $_GET["ruta"] == "reportes" ||
+        // $_GET["ruta"] == "clientes" ||
+        // $_GET["ruta"] == "ventas" ||
+        // $_GET["ruta"] == "crear-venta" ||
+        // $_GET["ruta"] == "editar-venta" ||
+        // $_GET["ruta"] == "reportes" ||
         $_GET["ruta"] == "salir"
       ) {
 

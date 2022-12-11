@@ -1,4 +1,4 @@
-<aside class="main-sidebar">
+<aside class="main-sidebar" style="background-color:black;">
 
 	 <section class="sidebar">
 
@@ -58,14 +58,14 @@
 
 		}
 
-		if($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Vendedor"){
+		if($_SESSION["perfil"] == "Vendedor"){
 
-			echo '<li>
+			echo  '<li>
 
-				<a href="clientes">
+				<a href="productos">
 
-					<i class="fa fa-users"></i>
-					<span>Clientes</span>
+					<i class="fa fa-product-hunt"></i>
+					<span>Productos</span>
 
 				</a>
 
@@ -73,70 +73,70 @@
 
 		}
 
-		if($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Vendedor"){
+		// if($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Vendedor"){
 
-			echo '<li class="treeview">
+		// 	echo '<li class="treeview">
 
-				<a href="#">
+		// 		<a href="#">
 
-					<i class="fa fa-list-ul"></i>
+		// 			<i class="fa fa-list-ul"></i>
 					
-					<span>Ventas</span>
+		// 			<span>Ventas</span>
 					
-					<span class="pull-right-container">
+		// 			<span class="pull-right-container">
 					
-						<i class="fa fa-angle-left pull-right"></i>
+		// 				<i class="fa fa-angle-left pull-right"></i>
 
-					</span>
+		// 			</span>
 
-				</a>
+		// 		</a>
 
-				<ul class="treeview-menu">
+		// 		<ul class="treeview-menu">
 					
-					<li>
+		// 			<li>
 
-						<a href="ventas">
+		// 				<a href="ventas">
 							
-							<i class="fa fa-circle-o"></i>
-							<span>Administrar ventas</span>
+		// 					<i class="fa fa-circle-o"></i>
+		// 					<span>Administrar ventas</span>
 
-						</a>
+		// 				</a>
 
-					</li>
+		// 			</li>
 
-					<li>
+		// 			<li>
 
-						<a href="crear-venta">
+		// 				<a href="crear-venta">
 							
-							<i class="fa fa-circle-o"></i>
-							<span>Crear venta</span>
+		// 					<i class="fa fa-circle-o"></i>
+		// 					<span>Crear venta</span>
 
-						</a>
+		// 				</a>
 
-					</li>';
+		// 			</li>';
 
-					if($_SESSION["perfil"] == "Administrador"){
+		// 			if($_SESSION["perfil"] == "Administrador"){
 
-					echo '<li>
+		// 			echo '<li>
 
-						<a href="reportes">
+		// 				<a href="reportes">
 							
-							<i class="fa fa-circle-o"></i>
-							<span>Reporte de ventas</span>
+		// 					<i class="fa fa-circle-o"></i>
+		// 					<span>Reporte de ventas</span>
 
-						</a>
+		// 				</a>
 
-					</li>';
+		// 			</li>';
 
-					}
+		// 			}
 
 				
 
-				echo '</ul>
+		// 		echo '</ul>
 
-			</li>';
+		// 	</li>';
 
-		}
+		// }
 
 		?>
 

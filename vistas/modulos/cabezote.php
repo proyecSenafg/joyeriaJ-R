@@ -8,7 +8,7 @@
 		<!-- logo mini -->
 		<span class="logo-mini">
 			
-			<img src="vistas/img/plantilla/icono-blanco.png" class="img-responsive" style="padding:10px">
+			<img src="vistas/img/plantilla/icono-negro-cadena.png" class="img-responsive" style="padding:1px">
 
 		</span>
 
@@ -16,7 +16,7 @@
 
 		<span class="logo-lg">
 			
-			<img src="vistas/img/plantilla/logo-blanco-lineal.png" class="img-responsive" style="padding:10px 0px">
+			<img src="vistas/img/plantilla/icono-negro-cadena.png" class="img-responsive" style="padding:10px 0px">
 
 		</span>
 
@@ -25,13 +25,13 @@
 	<!--=====================================
 	BARRA DE NAVEGACIÓN
 	======================================-->
-	<nav class="navbar navbar-static-top" role="navigation">
+	<nav class="navbar navbar-static-top" style="background-color:black" role="navigation">
 		
 		<!-- Botón de navegación -->
 
 	 	<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
         	
-        	<span class="sr-only">Toggle navigation</span>
+        	<span class="sr-only " >Toggle navigation</span>
       	
       	</a>
 
@@ -47,16 +47,16 @@
 
 					<?php
 
-					if($_SESSION["foto"] != ""){
+					// if($_SESSION["foto"] != ""){
 
-						echo '<img src="'.$_SESSION["foto"].'" class="user-image">';
+					// 	echo '<img src="'.$_SESSION["foto"].'" class="user-image">';
 
-					}else{
+					// }else{
 
 
-						echo '<img src="vistas/img/usuarios/default/anonymous.png" class="user-image">';
+					// 	echo '<img src="vistas/img/usuarios/default/anonymous.png" class="user-image">';
 
-					}
+					// }
 
 
 					?>
